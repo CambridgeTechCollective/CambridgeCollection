@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: home
+layout: default
 ---
 
 This page is maintained on github pages and built off the just-the-docs theme.
