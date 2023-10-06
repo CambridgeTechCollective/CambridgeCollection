@@ -1,0 +1,15 @@
+---
+layout: default
+title: Local Events
+nav_order: 0
+---
+<p>Please be aware that this data is automatically generated and not currated by website provider. Data may be inaccruate or missing. Sources located at bottom of this page</p>
+  {% for events in site.data.UpcomingEvents %}
+    <div class='EventName'><a href={{ events.sourceURL }} target='_blank'>{{ events.eventName }}</a></h2>
+    <div class='EventDate'><span class='Header'>Event Date:</span>{{ events.date.start }}</div></br>
+    <div class='EventLocation'><span class='Header'>Location:</span>{{events.location.address}}</div>
+    <div class='EventDesc'>{{ events.description }} </div></br>
+  {% endfor %}
+
+<div class = 'sources'><h3>Current Sites being processed</h3>
+<a href = 'https://calendar.cambridge.ca/default/Month'>https://calendar.cambridge.ca/default/Month</a>
