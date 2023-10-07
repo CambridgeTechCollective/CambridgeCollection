@@ -1,11 +1,13 @@
 ---
 layout: home
-title: Cambridge City Calendar Scraper
+title: Basic Event Scraper for Cambridge
 nav_order: 100
 ---
 [Latest JSON Results]({{ site.url }}/files/UpcomingEvents.json)
 
-[Python Code]({{site.url}}/files/ScrapeCalCambridgev2.py)
+[Python Code]({{site.url}}/files/CamScrape.py)
+This program will scrape several local calendars, sort events by start date and write out a JSON file.
+For this webside the JSON is then copied into the _data folder and uploaded to the github page
 ```
 import requests
 from bs4 import BeautifulSoup
@@ -13,6 +15,79 @@ import datetime
 import re
 import json
 import pytz
+
+
+def scrapeIdeaExchange(primeURL):
+  #Set scrapper ID, update version
+  ScraperID = "IdeaExchange0001JSON"
+  #IdeaExchange uses too much javascript to scrape as an HTML load the RSS feed instead
+  response = requests.get(primeURL)
+  # Check if the request was successful (status code 200)
+  if response.status_code == 200:
+    # Parse the HTML content of the page
+    soup = BeautifulSoup(response.text, 'xml')  #RSS Feed is just JSON
+    events = soup.find_all('item')
+    for event in events:
+      EventName= event.find('title').text.strip()
+      NavURL=event.find('link').text.strip()
+      EventID = NavURL.replace("https://","").replace(":","").replace(".","").replace("/","")
+      response2 = requests.get(NavURL)  #follow link to details page to find specifics of event
+      if response.status_code == 200:
+        soup2=BeautifulSoup(response2.text, 'lxml')
+        details = soup2.find('div', class_='col-md-9')  #Get div that contains event details
+        eventStart = details.find('var',class_='atc_date_start').text.strip()
+        eventEnd = details.find('var',class_='atc_date_end').text.strip()
+        startDate = eventStart[0:10]+'T'+eventStart[11:19]+'Z'
+        endDate = eventEnd[0:10]+'T'+eventEnd[11:19]+'Z'
+        addressName = details.find('var',class_='atc_location').text.strip()+' IdeaExchange'
+        paragraphs = details.find_all('p')
+        DetailsJSON = ''
+        for para in paragraphs:
+          Detail = para.text.strip()
+          DetailsJSON = DetailsJSON + Detail.replace("\n","\\n").replace("\t","").replace("\r","\\n")
+        print(EventName + ' ' + startDate)
+#Dictionary
+        eventCatAdd = {
+          "eventId": EventID,
+          "eventName": EventName,
+          "description": DetailsJSON,
+          "sourceURL": NavURL,
+          "date": {
+            "start": startDate,
+            "end": endDate
+          },
+          "location": {
+            "name": addressName,
+            "address": ""
+          },
+          "organizer": {
+            "name": "IdeaExchange",
+            "contact": {
+              "email": "",
+              "phone": "519-621-0460"
+            }
+          },
+          "tags": ["IdeaExchange"],
+          "ticketInfo": {
+            "isFree": True,
+            "price": None,
+            "registrationLink": ""
+          },
+          "additionalInfo": "",
+          "dateUpdate":UpdateTime,
+          "scraperID":ScraperID
+        }
+        if startDate > CutOff:
+          return
+        if startDate > UpdateTime :
+          eventCat.append(eventCatAdd) #Building list so it can be sorted when additional scrapers are added
+        else:
+          print('Event in Past')
+      else:
+        print('deadlink')
+  else:
+    print("Failed to retrieve the webpage. Status code:", response.status_code)
+
 
 
 
@@ -30,7 +105,7 @@ def scrapeCamCity(primeURL):  # will need to loop through month view to avoid re
       if i == 1: #first row does not need ,
         i=2
       else:
-        fileWrite.write(",\n")
+#        fileWrite.write(",\n")
         i += 1
       NavURL='https://calendar.cambridge.ca'+event.get('href')  #links are relative so I need to add the higher level details
       print(NavURL)
@@ -99,7 +174,7 @@ def scrapeCamCity(primeURL):  # will need to loop through month view to avoid re
               Tel = Contact.get('href')
               TelJSON = Tel[4:]
         #Build Dictionary Object
-        eventCat = {
+        eventCatAdd = {
           "eventId": EventID,
           "eventName": EventNameJSON,
           "description": DetailsJSON,
@@ -129,27 +204,42 @@ def scrapeCamCity(primeURL):  # will need to loop through month view to avoid re
           "dateUpdate":UpdateTime,
           "scraperID":ScraperID
         }
-        fileWrite.write(json.dumps(eventCat))
+        if startDateJSON.strftime('%Y-%m-%dT%H:%M:00Z') > CutOff:
+          return
+        if startDateJSON.strftime('%Y-%m-%dT%H:%M:00Z') > UpdateTime :
+          eventCat.append(eventCatAdd) #Building list so it can be sorted when additional scrapers are added
+        else:
+          print('Event in Past')
 
 
 
 
 et_timezone = pytz.timezone('US/Eastern')
-# The URL of the website you want to scrape
 SDate = datetime.datetime.now() - datetime.timedelta(days=1)
 EDate = datetime.datetime.now() + datetime.timedelta(days=30)
 UpdateTime= datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:00Z')
+CutOff = EDate.strftime('%Y-%m-%dT%H:%M:00Z')
 event_date2 = datetime.datetime.now() - datetime.timedelta(days=10)
-#for Cambridge Calendar events it's easiest to use builtin search and find events happening "soon"
+eventCat = []
+
+#for Cambridge Calendar events it's easiest to scrape the current month and next month custom search only shows 10 records at a time
 url = 'https://calendar.cambridge.ca/default/Month?StartDate='+SDate.strftime('%m/%d/%Y')
-fileWrite = open("UpcomingEvents.json","w") #open file for writing
-scrapeCamCity(url)  #This will scrape the current Month, Need to run a second time for the next month
+scrapeCamCity(url)  #This will scrape the current Month
 url = 'https://calendar.cambridge.ca/default/Month?StartDate='+EDate.strftime('%m/%d/%Y')
-fileWrite.write(",\n")
-scrapeCamCity(url)  #This will scrape the current Month, Need to run a second time for the next month
+scrapeCamCity(url)  #This will scrape the next Month
+#All city of Cambridge Events are now in the list eventCat
 
+#Get RSS feed from ideaexchange and scrape that
+url = 'https://ideaexchange.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ=='
+scrapeIdeaExchange(url)
 
-
-
+#sort list by date
+print('Sorting Event')
+sorted_data = sorted(eventCat, key=lambda x: x["date"]["start"])
+print('Writing File')
+#writing atomically will ensure that if there is an error with scraping nothing will change in the system
+fileWrite = open("UpcomingEvents.json","w") # Opens File
+fileWrite.write(json.dumps(sorted_data))
 fileWrite.close()
+
 ```
