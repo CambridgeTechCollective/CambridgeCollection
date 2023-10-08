@@ -4,6 +4,7 @@ title: Local Events
 nav_order: 0
 ---
 <p>Please be aware that this data is automatically generated and not currated by website provider. Data may be inaccruate or missing. Sources located at bottom of this page</p>
+<p>Click <a href='{{site.url}}/files/Events.pdf'>here</a> to download a PDF containing upcoming events (from last Friday for a 10-day window)</p>
   {% for events in site.data.UpcomingEvents %}
     <div class='EventName'><a href={{ events.sourceURL }} target='_blank'>{{ events.eventName }}</a></h2>
     <div class='EventDate'><span class='Header'>Event Date:</span>{{ events.date.start }}</div></br>
