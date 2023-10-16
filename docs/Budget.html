@@ -1,0 +1,81 @@
+---
+layout: default
+title: City Financial Summary
+nav_order: 50
+---
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+This page contains a summary of the disclosed financial statements from the city of Cambridge. You can view the official reports here (<a href='https://www.cambridge.ca/en/your-city/annual-report-financial-statements.aspx'>https://www.cambridge.ca/en/your-city/annual-report-financial-statements.aspx</a>).
+This page is still under construction and will be updated when full data is available.
+<figure class="highcharts-figure">
+<div id="container"></div>
+<p class="highcharts-description">
+Summary of expenses from year end financial statements. Data has not been validated against offical reports.
+</p>
+</figure>
+
+<script>
+var H = Highcharts;
+Highcharts.setOptions({
+    lang: {
+        thousandsSep: ','
+    }
+});
+Highcharts.chart('container', {
+  chart: {
+    type: 'column'
+  },
+  title: {
+    text: 'City Expenses'
+  },
+  subtitle: {
+    text: 'Data not validated'
+  },
+  xAxis: {
+    categories: [
+      'Land','Land Improvements','Buildings and Building Improvements','Infrastructure','Machinery, Equipment & Information Technology','Vehicles','Assets Under Construction'
+    ],
+    crosshair: true
+  },
+  yAxis: {
+    min: 0,
+    title: {
+      text: 'Expenses'
+    }
+  },
+  tooltip: {
+    headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+    pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+      '<td style="padding:0"><b>${point.y:,.0f}</b></td></tr>',
+    footerFormat: '</table>',
+    shared: true,
+    useHTML: true
+  },
+  plotOptions: {
+    column: {
+      pointPadding: 0.2,
+      borderWidth: 0
+    }
+  },
+  series: [
+  {
+    name: '2023',
+    data: [103715156,43946283,104529154,400217582,25298468,9304799,67433560]
+  },{
+    name: '2022',
+    data: [99160110,44046751,104676797,362277846,21557151,10434160,64005564]
+  }
+  ]
+});
+H.addEvent(H.Chart, 'aftergetTableAST', function(e) {
+  e.tree.children[2].children.forEach(function(row) {
+    row.children.forEach(function(cell, i) {
+      if (i !== 0) {
+        row.children[i].textContent = '$ ' + cell.textContent;
+      }
+    });
+  });
+});
+</script>
