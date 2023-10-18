@@ -35,7 +35,14 @@ Highcharts.chart('container', {
   },
   xAxis: {
     categories: [
-      'Land','Land Improvements','Buildings and Building Improvements','Infrastructure','Machinery, Equipment & Information Technology','Vehicles','Assets Under Construction'
+      'General government',
+      'Protection to persons & property',
+      'Transportation services',
+      'Environmental services',
+      'Health services',
+      'Social & family services',
+      'Recreation & cultural services',
+      'Planning & development'
     ],
     crosshair: true
   },
@@ -61,11 +68,11 @@ Highcharts.chart('container', {
   },
   series: [
   {
-    name: '2023',
-    data: [103715156,43946283,104529154,400217582,25298468,9304799,67433560]
-  },{
     name: '2022',
-    data: [99160110,44046751,104676797,362277846,21557151,10434160,64005564]
+    data: [38056338,35636632,22724609,66219224,1801703,1649333,32974567,8904467]
+  },{
+    name: '2021',
+    data: [31517181,33371824,17773512,61071594,1633569,1261183,30107885,5684962]
   }
   ]
 });
