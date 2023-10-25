@@ -1,4 +1,4 @@
-# This GitHub Action runs in each pull-requests.
+# This GitHub Action runs in each pull-request.
 # It tests building of the static Jekyll site.
 
 name: Pull-request - Build static site
