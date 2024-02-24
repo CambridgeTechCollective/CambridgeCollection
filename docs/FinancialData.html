@@ -16,15 +16,17 @@ Summary of revenue from year end financial statements. Data has not been validat
 </p>
 </figure>
 
+<figure class="highcharts-figure">
+<div id="Expenses"></div>
+<p class="highcharts-description">
+Summary of expenses from year end financial statements. Data has not been validated against offical reports.
+</p>
+</figure>
+
+
 <script>
-var H = Highcharts;
-Highcharts.setOptions({
-    lang: {
-        thousandsSep: ','
-    }
-});
-Highcharts.chart('Revenue', {
-  chart: {
+    $('Revenue').highcharts({
+        chart: {
     type: 'column'
   },
   title: {
@@ -77,33 +79,8 @@ Highcharts.chart('Revenue', {
   }
   ]
 });
-H.addEvent(H.Chart, 'aftergetTableAST', function(e) {
-  e.tree.children[2].children.forEach(function(row) {
-    row.children.forEach(function(cell, i) {
-      if (i !== 0) {
-        row.children[i].textContent = '$ ' + cell.textContent;
-      }
-    });
-  });
-});
-</script>
-
-<figure class="highcharts-figure">
-<div id="Expenses"></div>
-<p class="highcharts-description">
-Summary of expenses from year end financial statements. Data has not been validated against offical reports.
-</p>
-</figure>
-
-<script>
-var H = Highcharts;
-Highcharts.setOptions({
-    lang: {
-        thousandsSep: ','
-    }
-});
-Highcharts.chart('Expenses', {
-  chart: {
+    $('Expenses').highcharts({
+        chart: {
     type: 'column'
   },
   title: {
@@ -153,15 +130,9 @@ Highcharts.chart('Expenses', {
     name: '2021',
     data: [31517181,33371824,17773512,61071594,1633569,1261183,30107885,5684962]
   }
-  ]
-});
-H.addEvent(H.Chart, 'aftergetTableAST', function(e) {
-  e.tree.children[2].children.forEach(function(row) {
-    row.children.forEach(function(cell, i) {
-      if (i !== 0) {
-        row.children[i].textContent = '$ ' + cell.textContent;
-      }
-    });
-  });
-});
+  ]});
+    
 </script>
+
+
+
