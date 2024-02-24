@@ -12,6 +12,85 @@ This page is still under construction and will be updated when full data is avai
 <figure class="highcharts-figure">
 <div id="container"></div>
 <p class="highcharts-description">
+Summary of revenue from year end financial statements. Data has not been validated against offical reports.
+</p>
+</figure>
+
+<script>
+var H = Highcharts;
+Highcharts.setOptions({
+    lang: {
+        thousandsSep: ','
+    }
+});
+Highcharts.chart('container', {
+  chart: {
+    type: 'column'
+  },
+  title: {
+    text: 'City Revenue Sources'
+  },
+  subtitle: {
+    text: 'Data not validated'
+  },
+  xAxis: {
+    categories: [
+      'Taxation',
+      'User fees and charges',
+      'Penalties and interest on taxes',
+      'Investment income',
+      'Fines',
+      'Federal government transfers',
+      'Provincial government transfers',
+      'Deferred revenue earned'
+      'Land sales & other'
+    ],
+    crosshair: true
+  },
+  yAxis: {
+    min: 0,
+    title: {
+      text: 'Expenses'
+    }
+  },
+  tooltip: {
+    headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+    pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+      '<td style="padding:0"><b>${point.y:,.0f}</b></td></tr>',
+    footerFormat: '</table>',
+    shared: true,
+    useHTML: true
+  },
+  plotOptions: {
+    column: {
+      pointPadding: 0.2,
+      borderWidth: 0
+    }
+  },
+  series: [
+  {
+    name: '2022',
+    data: [103237789,90860368,2819859,2487404,456637,526168,1442255,2428700,3745960]
+  },{
+    name: '2021',
+    data: [97476967,84245700,2902950,1111312,214551,437291,3973075,1194643,1129465]
+  }
+  ]
+});
+H.addEvent(H.Chart, 'aftergetTableAST', function(e) {
+  e.tree.children[2].children.forEach(function(row) {
+    row.children.forEach(function(cell, i) {
+      if (i !== 0) {
+        row.children[i].textContent = '$ ' + cell.textContent;
+      }
+    });
+  });
+});
+</script>
+
+<figure class="highcharts-figure">
+<div id="container"></div>
+<p class="highcharts-description">
 Summary of expenses from year end financial statements. Data has not been validated against offical reports.
 </p>
 </figure>
