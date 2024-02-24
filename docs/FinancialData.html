@@ -25,7 +25,7 @@ Summary of expenses from year end financial statements. Data has not been valida
 
 
 <script>
-    $('Revenue').highcharts({
+    highcharts.chart('Revenue',{
         chart: {
     type: 'column'
   },
@@ -79,7 +79,7 @@ Summary of expenses from year end financial statements. Data has not been valida
   }
   ]
 });
-    $('Expenses').highcharts({
+    highcharts.chart('Expenses',{
         chart: {
     type: 'column'
   },
