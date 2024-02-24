@@ -16,13 +16,6 @@ Summary of revenue from year end financial statements. Data has not been validat
 </p>
 </figure>
 
-<figure class="highcharts-figure">
-<div id="Expenses"></div>
-<p class="highcharts-description">
-Summary of expenses from year end financial statements. Data has not been validated against offical reports.
-</p>
-</figure>
-
 <script>
 var H = Highcharts;
 Highcharts.setOptions({
@@ -93,7 +86,16 @@ H.addEvent(H.Chart, 'aftergetTableAST', function(e) {
     });
   });
 });
-    
+</script>
+
+<figure class="highcharts-figure">
+<div id="Expenses"></div>
+<p class="highcharts-description">
+Summary of expenses from year end financial statements. Data has not been validated against offical reports.
+</p>
+</figure>
+
+<script>
 var H = Highcharts;
 Highcharts.setOptions({
     lang: {
