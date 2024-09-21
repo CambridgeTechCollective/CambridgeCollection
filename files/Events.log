@@ -1,0 +1,2607 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.21)  21 SEP 2024 13:20
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Events.tex
+(./Events.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count195
+\Gm@cntv=\count196
+\c@Gm@tempcnt=\count197
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count198
+\mult@box=\box51
+\multicol@leftmargin=\dimen149
+\c@unbalance=\count199
+\c@collectmore=\count266
+\doublecol@number=\count267
+\multicoltolerance=\count268
+\multicolpretolerance=\count269
+\full@width=\dimen150
+\page@free=\dimen151
+\premulticols=\dimen152
+\postmulticols=\dimen153
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box52
+\last@line=\box53
+\mc@boxedresult=\box54
+\maxbalancingoverflow=\dimen154
+\mult@rightbox=\box55
+\mult@grightbox=\box56
+\mult@firstbox=\box57
+\mult@gfirstbox=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\c@minrows=\count270
+\c@columnbadness=\count271
+\c@finalcolumnbadness=\count272
+\last@try=\dimen155
+\multicolovershoot=\dimen156
+\multicolundershoot=\dimen157
+\mult@nat@firstbox=\box95
+\colbreak@box=\box96
+\mc@col@check@num=\count273
+)
+(/usr/share/texlive/texmf-dist/tex/latex/qrcode/qrcode.sty
+Package: qrcode 2015/01/08 v1.51 QR code generation
+
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+)
+\XKV@depth=\count274
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@qr@i=\count275
+\c@qr@j=\count276
+\qr@a=\count277
+\qr@b=\count278
+\qr@c=\count279
+\qr@for@depth=\count280
+\qr@for@maxdepth=\count281
+\qr@for@start=\count282
+\qr@for@end=\count283
+\qr@for@step=\count284
+\qr@newforcount=\count285
+\qr@newforcount=\count286
+\qr@desiredheight=\skip52
+\qr@modulesize=\skip53
+\qr@minipagewidth=\skip54
+\c@maski=\count287
+\c@maskj=\count288
+\c@totalones=\count289
+\c@penaltyi=\count290
+\c@penaltyii=\count291
+\c@penaltyiii=\count292
+\c@penaltyiv=\count293
+\c@qr@hexchars=\count294
+\qr@newforcount=\count295
+\c@qr@divisionsremaining=\count296
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks21
+\pgfutil@tempdima=\dimen158
+\pgfutil@tempdimb=\dimen159
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box97
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
+.code.tex
+\pgfkeys@tmptoks=\toks24
+))
+\pgf@x=\dimen162
+\pgf@y=\dimen163
+\pgf@xa=\dimen164
+\pgf@ya=\dimen165
+\pgf@xb=\dimen166
+\pgf@yb=\dimen167
+\pgf@xc=\dimen168
+\pgf@yc=\dimen169
+\pgf@xd=\dimen170
+\pgf@yd=\dimen171
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count297
+\c@pgf@countb=\count298
+\c@pgf@countc=\count299
+\c@pgf@countd=\count300
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+\pgf@sys@id@count=\count301
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count302
+\pgfsyssoftpath@bigbuffer@items=\count303
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen172
+\pgfmath@count=\count304
+\pgfmath@box=\box98
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count305
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen173
+\pgf@picmaxx=\dimen174
+\pgf@picminy=\dimen175
+\pgf@picmaxy=\dimen176
+\pgf@pathminx=\dimen177
+\pgf@pathmaxx=\dimen178
+\pgf@pathminy=\dimen179
+\pgf@pathmaxy=\dimen180
+\pgf@xx=\dimen181
+\pgf@xy=\dimen182
+\pgf@yx=\dimen183
+\pgf@yy=\dimen184
+\pgf@zx=\dimen185
+\pgf@zy=\dimen186
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen187
+\pgf@path@lasty=\dimen188
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen189
+\pgf@shorten@start@additional=\dimen190
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box99
+\pgf@hbox=\box100
+\pgf@layerbox@main=\box101
+\pgf@picture@serial@count=\count306
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen191
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen192
+\pgf@pt@y=\dimen193
+\pgf@pt@temp=\dimen194
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen195
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen196
+\pgf@sys@shading@range@num=\count307
+\pgf@shadingcount=\count308
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box102
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box103
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen197
+\pgf@nodesepend=\dimen198
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip55
+\f@nch@O@elh=\skip56
+\f@nch@O@erh=\skip57
+\f@nch@O@olh=\skip58
+\f@nch@O@orh=\skip59
+\f@nch@O@elf=\skip60
+\f@nch@O@erf=\skip61
+\f@nch@O@olf=\skip62
+\f@nch@O@orf=\skip63
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count309
+\l__pdf_internal_box=\box104
+)
+(./Events.aux
+<Reading QR code for "https://ideaexchange.libnet.info/event/11604981" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.waterlooregionmuseum.ca/Default/Detail/2
+024-09-21-1300-Remembering-the-Flood-of-74-Building-the-Living-Le" at level 7-M
+ from aux file.>
+
+<Reading QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-21-1
+400-Blithe-Spirit-by-Noel-Coward" at level 6-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11423633" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642139" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11662693" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.waterlooregionmuseum.ca/Default/Detail/2
+024-09-21-1400-Schneider-Creek-Porch-Party" at level 6-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11423721" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-21-1
+930-Blithe-Spirit-by-Noel-Coward" at level 6-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806592" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806954" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11807091" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-22-0
+900-Waterloo-Region-Kidney-Walk-Together-we-are-strong" at level 7-M from aux f
+ile.>
+
+<Reading QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-22-1
+400-Blithe-Spirit-by-Noel-Coward" at level 6-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11640758" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806593" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806955" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11807092" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642549" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11502189" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11605208" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11641661" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11647012" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11605164" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-23-1
+100-3rd-Annual-Golf-Classic" at level 5-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11634035" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11646918" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11669921" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642224" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11557458" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806594" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806956" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11807093" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11502098" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11610617" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642602" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642483" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11666703" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11498397" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11610686" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11498234" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11646926" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642192" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11666450" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11799625" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11666593" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11424416" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642119" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642448" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806595" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806957" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11807094" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642528" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11646997" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11424520" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642512" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11498385" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11605198" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11605086" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11425536" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11641364" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11498156" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642176" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11447871" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806596" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806958" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11807095" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11502123" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642538" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11667656" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11639825" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642580" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11605153" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11640494" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11610722" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642471" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642162" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11635773" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-26-1
+700-Main-Street-Music-Series" at level 6-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11425677" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11425992" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11424371" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11557296" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806597" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806959" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11807096" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11426267" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11426045" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11640513" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11502149" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11498372" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642621" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-27-1
+500-Hespeler-Village-Market" at level 5-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806598" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806960" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11807097" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-28-0
+700-Cambridge-Farmers-Market" at level 6-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11447584" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11447656" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-28-1
+100-Downtown-Cambridge-Vintage-and-Art-Market" at level 6-M from aux file.>
+
+<Reading QR code for "https://calendar.waterlooregionmuseum.ca/Default/Detail/2
+024-09-28-1100-AI-Encounters-Past-Present-and-Future" at level 7-M from aux fil
+e.>
+
+<Reading QR code for "https://calendar.waterlooregionmuseum.ca/Default/Detail/2
+024-09-28-1200-Region-cy-Tea-Party" at level 6-M from aux file.>
+
+<Reading QR code for "https://calendar.waterlooregionmuseum.ca/Default/Detail/2
+024-09-28-1300-Along-the-Grand-Photography-Workshop-and-Walk-with" at level 7-M
+ from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642140" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.waterlooregionmuseum.ca/Default/Detail/2
+024-09-28-1400-Region-cy-Tea-Party" at level 6-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806599" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806961" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11807098" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.waterlooregionmuseum.ca/Default/Detail/2
+024-09-29-1100-Flavours-of-Fall-Tea-by-the-Grand-at-McDougall-Cot" at level 7-M
+ from aux file.>
+
+<Reading QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-29-1
+400-Galt-Jazz-September-29-Show" at level 6-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806600" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806746" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806962" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11807099" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642550" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11502190" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11605209" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11641662" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11647013" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11605165" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11669713" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11634036" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11646919" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11669922" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642225" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11557459" at level
+ 4-M from aux file.>
+)
+\openout1 = `Events.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
+* v-part:(T,H,B)=(36.135pt, 722.7pt, 36.135pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=505.89pt
+* \textheight=722.7pt
+* \oddsidemargin=-18.06749pt
+* \evensidemargin=-18.06749pt
+* \topmargin=-73.135pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count310
+\scratchdimen=\dimen199
+\scratchbox=\box105
+\nofMPsegments=\count311
+\nofMParguments=\count312
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count313
+\MPscratchDim=\dimen256
+\MPnumerator=\count314
+\makeMPintoPDFobject=\count315
+\everyMPtoPDFconversion=\toks32
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11604981" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11604981" in v
+ersion 4-M as previously calculated.>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 34.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 34.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 34.
+
+
+
+<QR code requested for "https://calendar.waterlooregionmuseum.ca/Default/Detail
+/2024-09-21-1300-Remembering-the-Flood-of-74-Building-the-Living-Le" in version
+ 0-M.>
+
+<Copying the QR code for "https://calendar.waterlooregionmuseum.ca/Default/Deta
+il/2024-09-21-1300-Remembering-the-Flood-of-74-Building-the-Living-Le" in versi
+on 7-M as previously calculated.>
+
+
+
+<QR code requested for "https://calendar.cambridge.ca/default/Detail/2024-09-21
+-1400-Blithe-Spirit-by-Noel-Coward" in version 0-M.>
+
+<Copying the QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-
+21-1400-Blithe-Spirit-by-Noel-Coward" in version 6-M as previously calculated.>
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+[]\OT1/cmr/m/n/9 Cambridge Com-mu-nity Play-ers present Blithe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+\OT1/cmr/m/n/9 Spirit by Noel Cow-ard.Performances are at the
+ []
+
+
+Underfull \hbox (badness 7379) in paragraph at lines 56--58
+\OT1/cmr/m/n/9 Cam-bridge Arts The-atre - 47 Wa-ter Street South,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+\OT1/cmr/m/n/9 Cam-bridge, ONTick-ets:  Adults \TS1/cmr/m/n/9 $\OT1/cmr/m/n/9 2
+5 / Stu-dents
+ []
+
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11423633" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11423633" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11642139" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11642139" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11662693" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11662693" in v
+ersion 4-M as previously calculated.>
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
+dvips/cm-super/cm-super-ts1.enc}]
+
+
+<QR code requested for "https://calendar.waterlooregionmuseum.ca/Default/Detail
+/2024-09-21-1400-Schneider-Creek-Porch-Party" in version 0-M.>
+
+<Copying the QR code for "https://calendar.waterlooregionmuseum.ca/Default/Deta
+il/2024-09-21-1400-Schneider-Creek-Porch-Party" in version 6-M as previously ca
+lculated.>
+! Misplaced alignment tab character &.
+<argument> \large Tween D&
+                          D
+l.103 \subtitle{Tween D&D}
+                          
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11423721" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11423721" in v
+ersion 4-M as previously calculated.>
+! Misplaced alignment tab character &.
+<argument> ...{10px} \par Learn to play Dungeons &
+                                                   Dragons, the world's most...
+l.111 }
+       
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<argument> ...ying game.An introductory Dungeons &
+                                                   Dragons session designed ...
+l.111 }
+       
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+
+
+<QR code requested for "https://calendar.cambridge.ca/default/Detail/2024-09-21
+-1930-Blithe-Spirit-by-Noel-Coward" in version 0-M.>
+
+<Copying the QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-
+21-1930-Blithe-Spirit-by-Noel-Coward" in version 6-M as previously calculated.>
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+[]\OT1/cmr/m/n/9 Cambridge Com-mu-nity Play-ers present Blithe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+\OT1/cmr/m/n/9 Spirit by Noel Cow-ard.Performances are at the
+ []
+
+
+Underfull \hbox (badness 7379) in paragraph at lines 122--124
+\OT1/cmr/m/n/9 Cam-bridge Arts The-atre - 47 Wa-ter Street South,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+\OT1/cmr/m/n/9 Cam-bridge, ONTick-ets:  Adults \TS1/cmr/m/n/9 $\OT1/cmr/m/n/9 2
+5 / Stu-dents
+ []
+
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11806592" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11806592" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11806954" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11806954" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11807091" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11807091" in v
+ersion 4-M as previously calculated.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[2]
+
+
+<QR code requested for "https://calendar.cambridge.ca/default/Detail/2024-09-22
+-0900-Waterloo-Region-Kidney-Walk-Together-we-are-strong" in version 0-M.>
+
+<Copying the QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-
+22-0900-Waterloo-Region-Kidney-Walk-Together-we-are-strong" in version 7-M as p
+reviously calculated.>
+
+
+
+<QR code requested for "https://calendar.cambridge.ca/default/Detail/2024-09-22
+-1400-Blithe-Spirit-by-Noel-Coward" in version 0-M.>
+
+<Copying the QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-
+22-1400-Blithe-Spirit-by-Noel-Coward" in version 6-M as previously calculated.>
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--181
+[]\OT1/cmr/m/n/9 Cambridge Com-mu-nity Play-ers present Blithe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--181
+\OT1/cmr/m/n/9 Spirit by Noel Cow-ard.Performances are at the
+ []
+
+
+Underfull \hbox (badness 7379) in paragraph at lines 179--181
+\OT1/cmr/m/n/9 Cam-bridge Arts The-atre - 47 Wa-ter Street South,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--181
+\OT1/cmr/m/n/9 Cam-bridge, ONTick-ets:  Adults \TS1/cmr/m/n/9 $\OT1/cmr/m/n/9 2
+5 / Stu-dents
+ []
+
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11640758" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11640758" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11806593" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11806593" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11806955" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11806955" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11807092" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11807092" in v
+ersion 4-M as previously calculated.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[3]
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11642549" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11642549" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11502189" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11502189" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11605208" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11605208" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11641661" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11641661" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11647012" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11647012" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11605164" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11605164" in v
+ersion 4-M as previously calculated.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[4]
+
+
+<QR code requested for "https://calendar.cambridge.ca/default/Detail/2024-09-23
+-1100-3rd-Annual-Golf-Classic" in version 0-M.>
+
+<Copying the QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-
+23-1100-3rd-Annual-Golf-Classic" in version 5-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11634035" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11634035" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11646918" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11646918" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11669921" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11669921" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11642224" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11642224" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11557458" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11557458" in v
+ersion 4-M as previously calculated.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[5]
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11806594" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11806594" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11806956" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11806956" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11807093" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11807093" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11502098" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11502098" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11610617" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11610617" in v
+ersion 4-M as previously calculated.>
+
+Underfull \hbox (badness 7540) in paragraph at lines 414--416
+\OT1/cmr/m/n/9 da-men-tal skills while hav-ing fun and meet-ing new
+ []
+
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11642602" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11642602" in v
+ersion 4-M as previously calculated.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[6]
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11642483" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11642483" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11666703" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11666703" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11498397" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11498397" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11610686" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11610686" in v
+ersion 4-M as previously calculated.>
+
+Underfull \hbox (badness 7540) in paragraph at lines 469--471
+\OT1/cmr/m/n/9 da-men-tal skills while hav-ing fun and meet-ing new
+ []
+
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11498234" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11498234" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11646926" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11646926" in v
+ersion 4-M as previously calculated.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[7]
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11642192" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11642192" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11666450" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11666450" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11799625" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11799625" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11666593" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11666593" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11424416" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11424416" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11642119" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11642119" in v
+ersion 4-M as previously calculated.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[8]
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11642448" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11642448" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11806595" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11806595" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11806957" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11806957" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11807094" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11807094" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11642528" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11642528" in v
+ersion 4-M as previously calculated.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[9]
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11646997" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11646997" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11424520" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11424520" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11642512" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11642512" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11498385" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11498385" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11605198" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11605198" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11605086" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11605086" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11425536" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11425536" in v
+ersion 4-M as previously calculated.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[10]
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11641364" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11641364" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11498156" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11498156" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11642176" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11642176" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11447871" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11447871" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11806596" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11806596" in v
+ersion 4-M as previously calculated.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[11]
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11806958" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11806958" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11807095" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11807095" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11502123" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11502123" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11642538" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11642538" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11667656" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11667656" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11639825" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11639825" in v
+ersion 4-M as previously calculated.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[12]
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11642580" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11642580" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11605153" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11605153" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11640494" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11640494" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11610722" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11610722" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11642471" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11642471" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11642162" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11642162" in v
+ersion 4-M as previously calculated.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[13]
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11635773" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11635773" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://calendar.cambridge.ca/default/Detail/2024-09-26
+-1700-Main-Street-Music-Series" in version 0-M.>
+
+<Copying the QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-
+26-1700-Main-Street-Music-Series" in version 6-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11425677" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11425677" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11425992" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11425992" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11424371" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11424371" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11557296" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11557296" in v
+ersion 4-M as previously calculated.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[14]
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11806597" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11806597" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11806959" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11806959" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11807096" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11807096" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11426267" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11426267" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11426045" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11426045" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11640513" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11640513" in v
+ersion 4-M as previously calculated.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[15]
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11502149" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11502149" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11498372" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11498372" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11642621" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11642621" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://calendar.cambridge.ca/default/Detail/2024-09-27
+-1500-Hespeler-Village-Market" in version 0-M.>
+
+<Copying the QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-
+27-1500-Hespeler-Village-Market" in version 5-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11806598" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11806598" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11806960" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11806960" in v
+ersion 4-M as previously calculated.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[16]
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11807097" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11807097" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://calendar.cambridge.ca/default/Detail/2024-09-28
+-0700-Cambridge-Farmers-Market" in version 0-M.>
+
+<Copying the QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-
+28-0700-Cambridge-Farmers-Market" in version 6-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11447584" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11447584" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11447656" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11447656" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://calendar.cambridge.ca/default/Detail/2024-09-28
+-1100-Downtown-Cambridge-Vintage-and-Art-Market" in version 0-M.>
+
+<Copying the QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-
+28-1100-Downtown-Cambridge-Vintage-and-Art-Market" in version 6-M as previously
+ calculated.>
+
+
+
+<QR code requested for "https://calendar.waterlooregionmuseum.ca/Default/Detail
+/2024-09-28-1100-AI-Encounters-Past-Present-and-Future" in version 0-M.>
+
+<Copying the QR code for "https://calendar.waterlooregionmuseum.ca/Default/Deta
+il/2024-09-28-1100-AI-Encounters-Past-Present-and-Future" in version 7-M as pre
+viously calculated.>
+
+
+
+<QR code requested for "https://calendar.waterlooregionmuseum.ca/Default/Detail
+/2024-09-28-1200-Region-cy-Tea-Party" in version 0-M.>
+
+<Copying the QR code for "https://calendar.waterlooregionmuseum.ca/Default/Deta
+il/2024-09-28-1200-Region-cy-Tea-Party" in version 6-M as previously calculated
+.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[17]
+
+
+<QR code requested for "https://calendar.waterlooregionmuseum.ca/Default/Detail
+/2024-09-28-1300-Along-the-Grand-Photography-Workshop-and-Walk-with" in version
+ 0-M.>
+
+<Copying the QR code for "https://calendar.waterlooregionmuseum.ca/Default/Deta
+il/2024-09-28-1300-Along-the-Grand-Photography-Workshop-and-Walk-with" in versi
+on 7-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11642140" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11642140" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://calendar.waterlooregionmuseum.ca/Default/Detail
+/2024-09-28-1400-Region-cy-Tea-Party" in version 0-M.>
+
+<Copying the QR code for "https://calendar.waterlooregionmuseum.ca/Default/Deta
+il/2024-09-28-1400-Region-cy-Tea-Party" in version 6-M as previously calculated
+.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11806599" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11806599" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11806961" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11806961" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11807098" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11807098" in v
+ersion 4-M as previously calculated.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[18]
+
+
+<QR code requested for "https://calendar.waterlooregionmuseum.ca/Default/Detail
+/2024-09-29-1100-Flavours-of-Fall-Tea-by-the-Grand-at-McDougall-Cot" in version
+ 0-M.>
+
+<Copying the QR code for "https://calendar.waterlooregionmuseum.ca/Default/Deta
+il/2024-09-29-1100-Flavours-of-Fall-Tea-by-the-Grand-at-McDougall-Cot" in versi
+on 7-M as previously calculated.>
+
+
+
+<QR code requested for "https://calendar.cambridge.ca/default/Detail/2024-09-29
+-1400-Galt-Jazz-September-29-Show" in version 0-M.>
+
+<Copying the QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-
+29-1400-Galt-Jazz-September-29-Show" in version 6-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11806600" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11806600" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11806746" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11806746" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11806962" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11806962" in v
+ersion 4-M as previously calculated.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[19]
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11807099" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11807099" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11642550" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11642550" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11502190" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11502190" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11605209" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11605209" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11641662" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11641662" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11647013" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11647013" in v
+ersion 4-M as previously calculated.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[20]
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11605165" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11605165" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11669713" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11669713" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11634036" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11634036" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11646919" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11646919" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11669922" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11669922" in v
+ersion 4-M as previously calculated.>
+
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11642225" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11642225" in v
+ersion 4-M as previously calculated.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[21]
+
+
+<QR code requested for "https://ideaexchange.libnet.info/event/11557459" in ver
+sion 0-M.>
+
+<Copying the QR code for "https://ideaexchange.libnet.info/event/11557459" in v
+ersion 4-M as previously calculated.>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 25.63757pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.63757pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.63757pt}.
+
+[22] (./Events.aux
+<Reading QR code for "https://ideaexchange.libnet.info/event/11604981" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.waterlooregionmuseum.ca/Default/Detail/2
+024-09-21-1300-Remembering-the-Flood-of-74-Building-the-Living-Le" at level 7-M
+ from aux file.>
+
+<Reading QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-21-1
+400-Blithe-Spirit-by-Noel-Coward" at level 6-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11423633" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642139" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11662693" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.waterlooregionmuseum.ca/Default/Detail/2
+024-09-21-1400-Schneider-Creek-Porch-Party" at level 6-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11423721" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-21-1
+930-Blithe-Spirit-by-Noel-Coward" at level 6-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806592" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806954" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11807091" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-22-0
+900-Waterloo-Region-Kidney-Walk-Together-we-are-strong" at level 7-M from aux f
+ile.>
+
+<Reading QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-22-1
+400-Blithe-Spirit-by-Noel-Coward" at level 6-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11640758" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806593" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806955" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11807092" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642549" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11502189" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11605208" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11641661" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11647012" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11605164" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-23-1
+100-3rd-Annual-Golf-Classic" at level 5-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11634035" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11646918" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11669921" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642224" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11557458" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806594" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806956" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11807093" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11502098" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11610617" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642602" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642483" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11666703" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11498397" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11610686" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11498234" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11646926" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642192" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11666450" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11799625" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11666593" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11424416" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642119" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642448" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806595" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806957" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11807094" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642528" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11646997" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11424520" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642512" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11498385" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11605198" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11605086" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11425536" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11641364" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11498156" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642176" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11447871" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806596" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806958" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11807095" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11502123" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642538" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11667656" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11639825" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642580" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11605153" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11640494" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11610722" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642471" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642162" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11635773" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-26-1
+700-Main-Street-Music-Series" at level 6-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11425677" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11425992" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11424371" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11557296" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806597" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806959" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11807096" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11426267" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11426045" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11640513" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11502149" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11498372" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642621" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-27-1
+500-Hespeler-Village-Market" at level 5-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806598" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806960" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11807097" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-28-0
+700-Cambridge-Farmers-Market" at level 6-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11447584" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11447656" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-28-1
+100-Downtown-Cambridge-Vintage-and-Art-Market" at level 6-M from aux file.>
+
+<Reading QR code for "https://calendar.waterlooregionmuseum.ca/Default/Detail/2
+024-09-28-1100-AI-Encounters-Past-Present-and-Future" at level 7-M from aux fil
+e.>
+
+<Reading QR code for "https://calendar.waterlooregionmuseum.ca/Default/Detail/2
+024-09-28-1200-Region-cy-Tea-Party" at level 6-M from aux file.>
+
+<Reading QR code for "https://calendar.waterlooregionmuseum.ca/Default/Detail/2
+024-09-28-1300-Along-the-Grand-Photography-Workshop-and-Walk-with" at level 7-M
+ from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642140" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.waterlooregionmuseum.ca/Default/Detail/2
+024-09-28-1400-Region-cy-Tea-Party" at level 6-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806599" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806961" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11807098" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://calendar.waterlooregionmuseum.ca/Default/Detail/2
+024-09-29-1100-Flavours-of-Fall-Tea-by-the-Grand-at-McDougall-Cot" at level 7-M
+ from aux file.>
+
+<Reading QR code for "https://calendar.cambridge.ca/default/Detail/2024-09-29-1
+400-Galt-Jazz-September-29-Show" at level 6-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806600" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806746" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11806962" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11807099" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642550" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11502190" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11605209" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11641662" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11647013" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11605165" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11669713" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11634036" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11646919" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11669922" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11642225" at level
+ 4-M from aux file.>
+
+<Reading QR code for "https://ideaexchange.libnet.info/event/11557459" at level
+ 4-M from aux file.>
+)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 12032 strings out of 476182
+ 242003 string characters out of 5795595
+ 2297975 words of memory out of 5000000
+ 33856 multiletter control sequences out of 15000+600000
+ 562190 words of font info for 49 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 87i,12n,93p,2349b,390s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sfrm0900.pfb>
+Output written on Events.pdf (22 pages, 476518 bytes).
+PDF statistics:
+ 104 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+
