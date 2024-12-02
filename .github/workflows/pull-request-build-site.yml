@@ -1,22 +1,26 @@
-name: CI
+# This GitHub Action runs in each pull-request.
+# It tests building of the static Jekyll site.
+
+name: Pull-request - Build static site
 
 on:
-  push:
-    branches: ["main"]
   pull_request:
 
 jobs:
-  # Build job
-  build:
+
+  build_static_jekyll_site:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+
+      - name: Checkout the repository
         uses: actions/checkout@v3
-      - name: Setup Ruby
+
+      - name: Setup Ruby environment
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
-      - name: Build with Jekyll
+
+      - name: Build the Jekyll static site
         run: bundle exec jekyll build
