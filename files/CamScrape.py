@@ -85,6 +85,7 @@ def scrapeCamCity(primeURL):  # will need to loop through month view to avoid re
   i = 1
   ScraperID = "Cam0002JSON"  #v2 scrape by month to avoid pagnation
   if response.status_code == 200:  #Link is still valid
+    DetailsJSON=""
     # Parse the HTML content of the page
     soup = BeautifulSoup(response.text, 'lxml') #lxml should be more stable then an html object
     CalWindow = soup.find('div',class_='calendar-monthly') #calendar-monthly contains the links for calendar events
@@ -163,6 +164,8 @@ def scrapeCamCity(primeURL):  # will need to loop through month view to avoid re
               Tel = Contact.get('href')
               TelJSON = Tel[4:]
         #Build Dictionary Object
+        if DetailsJSON is None:
+          DetailsJSON = "Details Missing"
         eventCatAdd = {
           "eventId": EventID,
           "eventName": EventNameJSON,
@@ -333,19 +336,24 @@ eventCat = []
 
 #for Cambridge Calendar events it's easiest to scrape the current month and next month custom search only shows 10 records at a time
 url = 'https://calendar.cambridge.ca/default/Month?StartDate='+SDate.strftime('%m/%d/%Y')
+print(url)
 scrapeCamCity(url)  #This will scrape the current Month
 url = 'https://calendar.cambridge.ca/default/Month?StartDate='+EDate.strftime('%m/%d/%Y')
+print(url)
 scrapeCamCity(url)  #This will scrape the next Month
 #All city of Cambridge Events are now in the list eventCat
 
 #Get RSS feed from ideaexchange and scrape that
 url = 'https://ideaexchange.libnet.info/feeds?data=eyJmZWVkVHlwZSI6InJzcyIsImZpbHRlcnMiOnsibG9jYXRpb24iOlsiYWxsIl0sImFnZXMiOlsiYWxsIl0sInR5cGVzIjpbImFsbCJdLCJ0YWdzIjpbXSwidGVybSI6IiIsImRheXMiOjF9fQ=='
+print(url)
 scrapeIdeaExchange(url)
 
 #Waterloo Museums has same calendar engine as Cambridge City with small Tweaks
 url = 'https://calendar.waterlooregionmuseum.ca/default/Month?StartDate='+SDate.strftime('%m/%d/%Y')
+print(url)
 scrapeWatMuseums(url)  #This will scrape the current Month
 url = 'https://calendar.waterlooregionmuseum.ca/default/Month?StartDate='+EDate.strftime('%m/%d/%Y')
+print(url)
 scrapeWatMuseums(url)  #This will scrape the next Month
 #All city of Cambridge Events are now in the list eventCat
 
