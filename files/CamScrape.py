@@ -328,7 +328,7 @@ def scrapeWatMuseums(primeURL):  # will need to loop through month view to avoid
 
 et_timezone = pytz.timezone('America/Toronto')
 SDate = datetime.datetime.now() - datetime.timedelta(days=1)
-EDate = datetime.datetime.now() + datetime.timedelta(days=30)
+EDate = datetime.datetime.now() + datetime.timedelta(days=20)
 UpdateTime= datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:00Z')
 CutOff = EDate.strftime('%Y-%m-%dT%H:%M:00Z')
 event_date2 = datetime.datetime.now() - datetime.timedelta(days=10)
